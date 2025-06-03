@@ -1,31 +1,32 @@
 # UdpServer
 
-Este projeto é um servidor UDP simples implementado em Java. Ele escuta mensagens em uma porta específica e responde a comandos específicos enviados por clientes UDP.
+This project is a simple UDP server implemented in Java. It listens for messages on a specific port and responds to specific commands sent by UDP clients.
 
-## Como funciona
-- O servidor escuta na porta 8769.
-- Quando recebe a mensagem "HIT ME", responde com a frase: "Keep going, tomorrow will be worse!".
+## How it works
+- The server listens on port 8769.
+- When it receives the message "HIT ME", it replies with the phrase: "Keep going, tomorrow will be worse!".
 
-## Estrutura do Projeto
+## Project Structure
 ```
 src/
   Main.java
   UdpServer.java
 ```
 
-## Como executar
-1. Compile os arquivos Java:
+## How to run
+1. Compile the Java files:
    ```sh
    javac src/*.java
    ```
-2. Execute a classe principal (ajuste conforme o nome da sua classe main):
+2. Run the main class (adjust according to your main class name):
    ```sh
    java -cp src Main
    ```
 
-## Requisitos
-- Java 8 ou superior
+## Requirements
+- Java 8 or higher
 
-## Observações
-- O servidor responde apenas à mensagem "HIT ME".
-- O endereço de resposta está fixo como 127.0.0.1 (localhost).
+## Notes
+- The server only responds to the message "HIT ME".
+- The response address is fixed as 127.0.0.1 (localhost).
+
